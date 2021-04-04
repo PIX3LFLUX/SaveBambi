@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>image1575_jpg.rf.baf22dade7e14ad4d1a23591c58718d1.jpg</filename>
+	<path>image1575_jpg.rf.baf22dade7e14ad4d1a23591c58718d1.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rehkitze</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>171</xmin>
+			<xmax>227</xmax>
+			<ymin>203</ymin>
+			<ymax>263</ymax>
+		</bndbox>
+	</object>
+</annotation>
