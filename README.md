@@ -8,7 +8,9 @@ Fields in Germany are mowed at different times of the year. Nowadays, this mowin
 The detection of the animal in thermal images is done in two steps. First check presence of the animal using thresholding. If found, pass the image to a CNN model trained on thermal images for better detction and visualisation using boundary boxes.
 
 **How to use this project?**
- Follow the jupyter notebook Automatic detection of roe deer fawns from IR images.ipynb for installing the dependencies. 
+ 
+ Follow the jupyter notebook Automatic detection of roe deer fawns from IR images.ipynb for installing the dependencies.
+ Clone this repository and unzip TrainedModel.zip.
  Run the following file to get detections on an input video:
  ```
  !python SaveBambi.py --path_to_input_video=PATH_TO_INPUT_VIDEO 
@@ -16,7 +18,7 @@ The detection of the animal in thermal images is done in two steps. First check 
                           --path_to_labelmap=PATH_TO_LABEL_MAP   
                           --path_to_saved_model=PATH_TO_SAVED_MAP
   ```
-  
+  Note: Pls remember to correctly give the path to the input and saved model correctly.
   here *path_to_input_video -> path to the input video on which detections have to be made
        *path_to_output_video -> path to where output file must be stored
        *path_to_labelmap -> path to the label map used in the ML model
