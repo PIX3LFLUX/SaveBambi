@@ -1,8 +1,9 @@
 
-#SaveBambi
+# SaveBambi
 A Project to Detect Animals during the Mowing Process - Especially to Protect Roe Deer Fawns
 
-**Abstract**:
+**Abstract**:<br>
+
 Fields in Germany are mowed at different times of the year. Nowadays, this mowing process is often carried out using agricultural machinery with different types of mow-ers. During these mowing operations various animals (insects, birds, amphibians, wild mammals) can be injured or killed. Fawns are particularly affected, as they remain by instinct, motionless in the grass even when in the face of danger. The present techno-logical solution for this problem is to search the fields before the mowing, by use of infrared cameras on drones and deterring by means of acoustic signals. However, these methods require preplanned communication before and during the search, and extra manpower. Hence there is a need for an automated system that can be mounted on the tractor and can detect the animal searched and warn the operator without any manual intervention. The aim of this project is to detect presence of animals in thermal images and if found localize their position in the box using bounding boxes, that can be used in such an automated system. Here detection of all kinds of warm bodied animals are considered, even though roe deer fawns are more prone to threat.
 
 The detection of the animal in thermal images is done in two steps. First check presence of the animal using thresholding. If found, pass the image to a CNN model trained on thermal images for better detction and visualisation using boundary boxes.
